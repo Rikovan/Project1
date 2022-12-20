@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+      #box{
+        border: 5px solid tomato;
+      }
+      img{
+        height: 250px;
+      }
+    </style> -->
+</head>
+<body>
+  <div id="box"></div>
+<!-- <div id="box">
+  <div>
+    <img src="../images/1.jpg" alt="">
+    <img src="../images/2.jpg" alt="">
+    <img src="../images/3.jpg" alt="">
+  </div>
+  <div>
+    <img src="../images/1.jpg" alt="">
+    <img src="../images/2.jpg" alt="">
+    <img src="../images/3.jpg" alt="">
+  </div>
+  <div>
+    <img src="../images/1.jpg" alt="">
+    <img src="../images/2.jpg" alt="">
+    <img src="../images/3.jpg" alt="">
+  </div>
+</div>
+    <script>
+  // let i = 0;
+  // while(i<3){
+  //   alert("number"  + i++ + "!");
+  
+  // }
+let myDiv = prompt("Сколько блоков?");
+let myPic = +prompt("Сколькок картинок?");
+let s ="";
+let n = 1;
+for(i=1;i<=myDiv;i++){
+  s+="<div>";
+    for(j=1;j<=myPic;j++){
+      if(n>11)n=1;
+      s+=`<img src="../images/${n++}.jpg" alt="">`
+    }
+    s+= "</div>";
+}
+box.innerHTML=s;
+
+
+
+</script> -->
+
+<script>
+  // function sum(a,b){
+  //   return a+b;
+  // }
+  // alert(sum(2,3));
+  // let sum1 = function(a,b){
+  //   return a + b;}
+  //   alert(sum1(5,8));
+  let arr1 = new Array();
+  let arr2 = new Array(5);
+  let arr3 = new Array("Первое","Второе","Третье");
+  let arr4 = [];
+  let arr5 = [5];
+  let fruits = ["Яблоко","Апельсин","Груша"]; 
+  console.log(fruits[1]);
+  fruits[5] = "Манго";
+  console.log(fruits);
+  for(i=0; i<=3;i++){
+    console.log(fruits[i])
+  }
+  for(elem of fruits)
+    console.log(elem);
+    let colors = ["red", "yellow","green"];
+    for(i=0;i<=2;i++){
+      box.innerHTML += `${colors[1]}<br>`;
+    }
+  
+
+
+
+</script>
+
+
+
+</body>
+</html>
